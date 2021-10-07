@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import {useState, useEffect} from 'react'
+// import { useEffect } from 'react/cjs/react.development';
 import Show from '../show/Show';
 import "./Courses.css"
 

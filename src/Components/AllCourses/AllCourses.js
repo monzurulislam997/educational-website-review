@@ -1,7 +1,8 @@
 import React from 'react';
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from "react";
 import ShowAllCourse from '../ShowAllCourse/ShowAllCourse';
 import './AllCourses.css'
+import react from 'react';
 const AllCourses = () => {
     const [courses,setCourses]=useState([])
     useEffect(()=>{
@@ -14,7 +15,7 @@ const AllCourses = () => {
         <div className="mt-5">
             <h1  >ALL <span className="text-danger  mt-5">COURSES</span></h1>
         
-    <div className= "fourCart  ">
+    <div className= "fourCart">
             
          {
             courses.map((course) => <ShowAllCourse

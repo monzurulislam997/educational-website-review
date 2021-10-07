@@ -43,7 +43,7 @@ const Home = () => {
           <form class="d-flex">
       <div className="search-box w-50 mx-auto d-flex">
       <input class="form-control   mx-auto" type="search" placeholder="Search your courses you want to admit" aria-label="Search"/>
-      <button class="btn btn-outline-success bg-warning px-5 py-2 fs-5" type="submit">Search</button>
+      <button className=" btn btn-outline-success  bg-warning px-5 py-2 fs-5" type="submit">Search</button>
       </div>
     </form>
   </div>

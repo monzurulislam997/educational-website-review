@@ -14,32 +14,32 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Switch>
-        <Route path='/home'>
+        <Route exact path='/home'>
       <Home></Home>
         </Route>
         <Route exact path='/'>
       <Home></Home>
         </Route>
-        <Route path="/header">
+        <Route  exact path="/header">
       <Header></Header>
         </Route>
-        <Route path='/courses'>
+        <Route exact path="/courses">
           <Header></Header>
         <AllCourses></AllCourses>
         <Footer></Footer>
         </Route>
        
-        <Route path='/Events'>
+        <Route exact  path='/events'>
         <Header></Header>
           <Events></Events>
           <Footer></Footer>
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <Header></Header>
           <About></About>
           <Footer></Footer>
         </Route>
-        <Route path='*'>
+        <Route exact path='*'>
           <NotFound></NotFound>
         </Route>
       </Switch>
