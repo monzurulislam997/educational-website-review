@@ -1,0 +1,51 @@
+.event {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../../images/about.jpg);
+ padding: 180px;
+ color: white;
+}
+.achievement-box{
+    display:grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.achievement {
+    width: 350px;
+    height: 220px;
+    border-right: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    margin:10px 15px;
+   padding: 25px;
+}
+.achievement:hover{
+box-shadow: 8px 6px 10px gainsboro;
+}
+.box {
+    box-shadow: 10px 8px 15px 8px gainsboro ;
+    padding: 10px;
+}
+.box:hover{
+    border: 1px solid tomato;
+}
+.icon-design{
+    
+    border:8px solid rgb(219, 217, 217);
+    border-radius: 50%;
+    width: 120px;
+    height: 106px;
+}
+.icon {
+    font-size: 40px;
+    margin-top: 25px;
+}
+.icon-design:hover {
+    border:8px solid orangered;
+    border-radius: 50%;
+}
+.button {
+    background-color: #001E3F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-right: 3px 8px ;
+    margin-bottom: 10px;
+
+}
