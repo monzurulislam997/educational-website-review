@@ -3,7 +3,7 @@ import './Home.css'
 import Courses from '../Courses/Courses';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import bg from '../../images/background.jpg';
+import bg from '../../images/background.jpg'
 import bg1 from '../../images/background1.jpg';
 import bg2 from '../../images/background2.jpg';
 import vaccineReg from '../../images/vaccine.png'

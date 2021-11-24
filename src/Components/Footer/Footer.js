@@ -11,6 +11,7 @@ const Footer = () => {
     <p>Phone: +101-1231-4321 </p>
 
       <p>  Email: info@educationmaster.com</p>
+      <p> copy-right:monzurul islam</p>
     </div>
     <div className="col mt-5">
       <h5>DOWNLOAD OUR FREE MOBILE APPS</h5>
