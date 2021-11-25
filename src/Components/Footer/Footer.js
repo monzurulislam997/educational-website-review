@@ -7,7 +7,7 @@ const Footer = () => {
   <div className="row">
     <div className="col mt-5">
     <h3>GET IN TOUCH</h3>
-    <h5>House No. N/E (N) 8, Road No. 90, Gulshan 2, 1212 Dhaka, Bangladesh</h5>
+    <h5>House No. N/E (N) 8, Road No. 90, Dhanmondi, 1212 Dhaka, Bangladesh</h5>
     <p>Phone: +101-1231-4321 </p>
 
       <p>  Email: info@educationmaster.com</p>
